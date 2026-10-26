@@ -1,0 +1,42 @@
+{
+  "reglas": "Yahtzee, 5 dados, 13 categorías, hasta 3 lanzamientos; bono superior 35",
+  "distribucion": "cargada: P(6)=0.30; P(1..5)=0.14",
+  "semilla": 20261022,
+  "resumen": {
+    "games": 10000,
+    "player1_mean": 147.9959,
+    "player2_mean": 147.0073,
+    "player1_win_rate": 0.5079,
+    "draw_rate": 0.0059
+  },
+  "convergencia": [
+    {
+      "juegos": 10,
+      "promedio_jugador_1": 152.6,
+      "promedio_jugador_2": 155.7,
+      "tasa_victoria_j1": 0.4,
+      "tasa_empate": 0.0
+    },
+    {
+      "juegos": 1000,
+      "promedio_jugador_1": 147.226,
+      "promedio_jugador_2": 148.077,
+      "tasa_victoria_j1": 0.491,
+      "tasa_empate": 0.006
+    },
+    {
+      "juegos": 10000,
+      "promedio_jugador_1": 147.9959,
+      "promedio_jugador_2": 147.0073,
+      "tasa_victoria_j1": 0.5079,
+      "tasa_empate": 0.0059
+    }
+  ],
+  "yahtzee_en_un_lanzamiento": {
+    "juegos": 100000,
+    "aciertos": 275,
+    "estimacion": 0.00275,
+    "probabilidad_analitica": 0.0026989119999999995,
+    "diferencia_absoluta": 5.108800000000035e-05
+  }
+}
